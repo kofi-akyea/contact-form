@@ -67,8 +67,9 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="w-[350px] h-[900px] p-7 bg-white rounded-xl shadow-2xl lg:w-[1000px] lg:p-10">
+    <div className="w-[350px] h-[900px] p-7 bg-white rounded-xl shadow-2xl lg:w-[1000px] lg:p-10 lg:h-[800px]">
       <form onSubmit={handleSubmit}>
+        <h1 className="text-4xl mb-5">Contact Us</h1>
         {/* Name fields */}
         <div className="lg:flex lg:w-[100%] lg:justify-between">
           <div className="w-[100%] h-[90px] lg:flex lg:flex-col lg:w-[95%] lg:mr-[5%]">
